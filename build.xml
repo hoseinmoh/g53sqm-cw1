@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-   <project name="sqm cw" default="info">
+   <project name="sqm cw" default="test">
    
-   <target name="info">
+   <target name="test">
       <echo>to pass travis ci test</echo>
    </target>
    
