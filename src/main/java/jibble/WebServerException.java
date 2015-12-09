@@ -1,3 +1,5 @@
+package main.java.jibble;
+
 
 /* 
 Copyright Paul James Mutton, 2001-2004, http://www.jibble.org/

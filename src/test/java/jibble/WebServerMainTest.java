@@ -1,4 +1,4 @@
-package test.java;
+package test.java.jibble;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
