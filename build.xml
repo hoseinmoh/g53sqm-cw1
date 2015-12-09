@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="run" name="sqm cw">
 	<target name="run" depends="compile">
-		<java classname="g53sqm.jibble.WebServerMain">
-			<classpath path="g53sqm.jibble"/>
+		<java classname="WebServerMain">
+			<classpath path="."/>
 		</java>
 	</target>
 	<target name="compile">
-		<javac includeantruntime="false" srcdir="./src" destdir="g53sqm.jibble" />
+		<javac includeantruntime="false" srcdir="./src" destdir="." />
 	</target>
 
 
