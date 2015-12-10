@@ -7,8 +7,18 @@
       <pattern>%d{HH:mm:ss.SSS} %F [Class: %C; Method: %M; Line: %L] %-5level  - %msg%n</pattern>
     </encoder>
   </appender>
+  
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+	<File>LogDemo.log</File>
+	<append>true</append>
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} %F [Class: %C; Method: %M; Line: %L] %-5level  - %msg%n</pattern>
+    </encoder>
+  </appender>
+  
 
   <root level="debug">
     <appender-ref ref="STDOUT" />
+    <appender-ref ref="FILE" />
   </root>
 </configuration>

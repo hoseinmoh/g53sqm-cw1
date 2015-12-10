@@ -3,6 +3,11 @@ package jibble;
 import java.io.File;
 import java.io.IOException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+
 /* 
 Copyright Paul James Mutton, 2001-2004, http://www.jibble.org/
 
@@ -26,8 +31,11 @@ $Id: WebServerMain.java,v 1.2 2004/02/01 13:37:35 pjm2 Exp $
  * @author Copyright Paul Mutton, http://www.jibble.org/
  */
 public class WebServerMain {
+	static Logger logger  = LoggerFactory.getLogger(WebServerMain.class);
 
     public static void main(String[] args) {
+    	
+    	logger.info("log information");
     	
     	File f = new File("webfiles/index.html");
     	
