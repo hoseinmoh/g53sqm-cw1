@@ -15,7 +15,7 @@
 		  <configuration>
 		    <archive>
 		      <manifest>
-		        <mainClass>main.java.jibble.WebServerMain</mainClass>
+		        <mainClass>jibble.WebServerMain</mainClass>
 		      </manifest>
 		    </archive>
 		    <descriptorRefs>

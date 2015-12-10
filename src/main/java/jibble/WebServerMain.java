@@ -1,7 +1,4 @@
-package main.java.jibble;
-
-
-
+package jibble;
 
 import java.io.File;
 import java.io.IOException;
