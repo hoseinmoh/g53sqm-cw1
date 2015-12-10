@@ -1,7 +1,6 @@
 package jibble;
 
-
-
+import org.slf4j.LoggerFactory;
 
 /* 
 Copyright Paul James Mutton, 2001-2004, http://www.jibble.org/
@@ -27,13 +26,16 @@ $Id: Logger.java,v 1.2 2004/02/01 13:37:35 pjm2 Exp $
  * @author Copyright Paul Mutton, http://www.jibble.org/
  */
 public class Logger {
+	
+	static org.slf4j.Logger logger  = LoggerFactory.getLogger(WebServerMain.class);
     
     private Logger() {
         // Prevent this class from being constructed.
     }
     
     public static void log(String ip, String request, int code) {
-        System.out.println("[" + new java.util.Date().toString() + "] " + ip + " \"" + request + "\" " + code);
+        //System.out.println("[" + new java.util.Date().toString() + "] " + ip + " \"" + request + "\" " + code);
+        logger.info("[" + new java.util.Date().toString() + "] " + ip + " \"" + request + "\" " + code);
     }
     
 }
