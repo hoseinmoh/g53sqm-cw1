@@ -29,10 +29,10 @@ public class RequestThreadTest {
         RQThread.run();
 	}
 	
-	@Test(timeout=10000)
-	public void testRun2() {
-        RequestThread RQThread = new RequestThread(null, null);
-        RQThread.run();
-	}
+//	@Test(timeout=10000)
+//	public void testRun2() {
+//        RequestThread RQThread = new RequestThread(null, null);
+//        RQThread.run();
+//	}
 
 }
