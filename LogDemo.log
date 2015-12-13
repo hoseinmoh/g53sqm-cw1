@@ -4,3 +4,40 @@
 20:01:49.124 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
 20:01:53.653 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Thu Dec 10 20:01:53 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
 20:01:53.733 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Thu Dec 10 20:01:53 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+21:55:25.780 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+21:57:27.746 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+11:20:06.167 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+11:20:13.630 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:13 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
+11:20:13.698 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:13 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+11:20:22.602 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:22 SGT 2015] 0:0:0:0:0:0:0:1 "GET /asd HTTP/1.1" 404
+11:20:32.599 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:32 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+11:20:32.599 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:32 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+11:20:32.599 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:32 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+11:20:52.542 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:20:52 SGT 2015] 0:0:0:0:0:0:0:1 "GET /asdadsads HTTP/1.1" 404
+11:21:02.539 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:21:02 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+11:21:02.539 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:21:02 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+11:21:34.512 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+11:21:37.301 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:21:37 SGT 2015] 0:0:0:0:0:0:0:1 "GET /asdadsads HTTP/1.1" 404
+11:21:47.290 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:21:47 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+11:21:47.290 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 11:21:47 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+16:02:44.219 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+16:02:56.210 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:02:56 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+16:03:08.893 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:03:08 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+16:04:05.456 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+16:04:05.652 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:04:05 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
+16:04:05.747 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:04:05 SGT 2015] 127.0.0.1 "GET /SQM-logo2.png HTTP/1.1" 200
+16:04:38.951 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+16:04:42.552 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:04:42 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
+16:04:42.601 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:04:42 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+16:06:04.246 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+16:06:06.369 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:06:06 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
+16:06:06.432 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:06:06 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+16:08:41.156 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+16:08:47.694 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:08:47 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
+16:08:47.746 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:08:47 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+16:10:40.666 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
+16:10:43.734 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:10:43 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
+16:10:43.783 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:10:43 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+16:14:00.695 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:14:00 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+16:14:00.695 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Fri Dec 11 16:14:00 SGT 2015] 0:0:0:0:0:0:0:1 "null" 405
+17:06:10.031 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information

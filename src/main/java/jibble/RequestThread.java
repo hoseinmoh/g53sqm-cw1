@@ -35,6 +35,7 @@ public class RequestThread implements Runnable {
     public RequestThread(Socket socket, File rootDir) {
         _socket = socket;
         _rootDir = rootDir;
+        
     }
     
     // handles a connction from a client.
@@ -51,9 +52,14 @@ public class RequestThread implements Runnable {
             String path = "";
             // Read the first line from the client.
             request = in.readLine();
+            System.out.println("THIS IS THE REQUEST " + request);
+            
             if (request != null && request.startsWith("GET ") && (request.endsWith(" HTTP/1.0") || request.endsWith("HTTP/1.1"))) {
                 path = request.substring(4, request.length() - 9);
-            }
+                System.out.println("THIS IS THE PATH " + path); }
+//            } else if (request != null && request.startsWith("HEAD ") && (request.endsWith(" HTTP/1.0") || request.endsWith("HTTP/1.1"))) {
+//            	//path = request.substring(4, request.length() - 9);
+//            }
             else {
                 // Invalid request type (no "GET")
                 Logger.log(ip, request, 405);
@@ -68,6 +74,7 @@ public class RequestThread implements Runnable {
             HashMap <String, String> headers = new HashMap<String, String>();
             String line = null;
             while ((line = in.readLine()) != null) {
+            	System.out.println("THIS IS THE LINE " + line);
                 line = line.trim();
                 if (line.equals("")) {
                     break;
@@ -76,6 +83,8 @@ public class RequestThread implements Runnable {
                 if (colonPos > 0) {
                     String key = line.substring(0, colonPos);
                     String value = line.substring(colonPos + 1);
+                    System.out.println("THIS IS THE KEY " + key);
+                    System.out.println("THIS IS THE VALUE " + value);
                     headers.put(key, value.trim());
                 }
             }

@@ -16,9 +16,9 @@ public class WebServerMainTest extends TestCase {
 	/**
 	 * Test method for {@link jibble.WebServerMain#main(java.lang.String[])}.
 	 */
-	@Test
-	public void testMain() {//throws Exception {
-		//throw new RuntimeException("not yet implemented");
+	@Test(expected = WebServerException.class)
+	public void testMain() {
+		//WebServerMain.main(new String[] {"arg1" , "arg2" , "arg2"});
 	}
 
 }

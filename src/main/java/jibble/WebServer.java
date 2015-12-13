@@ -61,6 +61,13 @@ public class WebServer {
                 // Pass the socket to a new thread so that it can be dealt with
                 // while we can go and get ready to accept another connection.
                 Socket socket = serverSocket.accept();
+                
+                
+                //test
+                //BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                //in.readLine();
+                //System.out.println("TESTING CONNECTION" + in.readLine());
+                
                 RequestThread requestThread = new RequestThread(socket, _rootDir);
                 Thread thread = new Thread(threadGroup, requestThread);
                 thread.start();
