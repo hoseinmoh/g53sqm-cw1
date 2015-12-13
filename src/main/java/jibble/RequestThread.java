@@ -51,10 +51,6 @@ public class RequestThread implements Runnable {
 
 			request = in.readLine();
 			// currentLine = inFromClient.readLine();
-			String headerLine = request;
-			StringTokenizer tokenizer = new StringTokenizer(headerLine);
-			String httpMethod = tokenizer.nextToken();
-			String httpQueryString = tokenizer.nextToken();
 
 			System.out.println(request);
 
