@@ -44,3 +44,9 @@
 17:30:13.536 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 38] INFO   - log information
 17:30:19.737 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 17:30:19 SGT 2015] 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" 200
 17:30:19.805 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 17:30:19 SGT 2015] 0:0:0:0:0:0:0:1 "GET /SQM-logo2.png HTTP/1.1" 200
+20:20:48.522 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 20:20:48 SGT 2015] null "null" 0
+20:22:25.005 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 20:22:25 SGT 2015] null "null" 0
+20:28:44.056 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 20:28:44 SGT 2015] null "null" 0
+20:29:49.572 WebServerMain.java [Class: jibble.WebServerMain; Method: main; Line: 41] INFO   - log information
+20:30:48.673 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 20:30:48 SGT 2015] null "null" 0
+20:59:46.890 Logger.java [Class: jibble.Logger; Method: log; Line: 38] INFO   - [Sun Dec 13 20:59:46 SGT 2015] null "null" 0
